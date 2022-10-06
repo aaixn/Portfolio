@@ -21,11 +21,11 @@ img {
     width: 20vw;
     border-radius: 50%;
     float: right;
-    border: 10px solid #a4ac86;
+    /* border: 10px solid #a4ac86; */
 }
 
 span {
-    color: #a4ac86;
+    color: #ffbf88;
     font-size: 8vh;
 }
 
@@ -70,7 +70,7 @@ footer {
 }
 
 #home-arrow {
-    color: #7f5539;
+    color: #ffbf88;
     position: relative;
     top: 30%;
     left: 50%;
