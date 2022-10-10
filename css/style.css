@@ -8,17 +8,26 @@ body {
     justify-content: space-between;
 }
 
+#intro {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+}
+
 header {
     height: 100vh;
+    width: 100%;
     line-height: 1.2;
-    padding: 30vh 20vh 0 20vh;
     color: #7f5539;
-    flex-wrap: wrap;
+    /* border: 1px solid red; */
 }
 
 
 img {
-    width: 20vw;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     float: right;
     /* border: 10px solid #a4ac86; */
@@ -64,19 +73,46 @@ footer {
     height: 2vh;
 }
 
-#about {
+.page {
     height: 100vh;
+}
+
+#about {
     padding: 0 10vw 0 10vw;
 }
 
 #home-arrow {
     color: #ffbf88;
-    position: relative;
-    top: 30%;
-    left: 50%;
+    text-align: center;
+    display: block;
     font-size: xx-large;
+    /* border: 1px solid rebeccapurple; */
 }
 
 #about-info {
     color: black;
+}
+
+#greeting-card {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    /* border: 1px solid rosybrown; */
+}
+
+#skills-toolkit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#resume {
+    text-align: center;
+}
+
+#projects {
+    text-align: center;
 }
