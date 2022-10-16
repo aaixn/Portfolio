@@ -81,12 +81,30 @@ footer {
     padding: 0 10vw 0 10vw;
 }
 
+/* add hover animation to make the arrow bounce */
 #home-arrow {
     color: #ffbf88;
     text-align: center;
     display: block;
     font-size: xx-large;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     /* border: 1px solid rebeccapurple; */
+}
+
+@keyframes arrow {
+    0% {
+
+    }
+
+    50% {
+
+    }
+
+    100% {
+        
+    }
 }
 
 #about-info {
@@ -116,3 +134,10 @@ footer {
 #projects {
     text-align: center;
 }
+
+#resume-link {
+    color: #7f5539;
+}
+
+/* testing*/
+/* add a walking animation of pixelated self at the top or somewhere */
